@@ -1,0 +1,2 @@
+JMH S 45 com.example.maven.algorithm.SkipListBenchMark S 96 com.example.maven.algorithm.generated.SkipListBenchMark_testSkipListGetLessThanOrEqualTo_jmhTest S 32 testSkipListGetLessThanOrEqualTo S 14 SingleShotTime E A 1 1 1 E E E E E E E I 1 2 E E E E E E U 12 MILLISECONDS E E 
+JMH S 45 com.example.maven.algorithm.SkipListBenchMark S 101 com.example.maven.algorithm.generated.SkipListBenchMark_testPriorityQueueGetLessThanOrEqualTo_jmhTest S 37 testPriorityQueueGetLessThanOrEqualTo S 14 SingleShotTime E A 1 1 1 E E E E E E E I 1 2 E E E E E E U 12 MILLISECONDS E E 
