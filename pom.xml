@@ -27,6 +27,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--mybatis依赖-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
@@ -207,11 +214,13 @@
             <version>5.9.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/edu.princeton.cs/algs4 -->
         <dependency>
             <groupId>edu.princeton.cs</groupId>
             <artifactId>algs4</artifactId>
-            <version>1.0.0.0</version>
+            <version>1.0.3</version>
         </dependency>
+
 
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>

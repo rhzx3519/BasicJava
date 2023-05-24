@@ -2,6 +2,10 @@ package com.example.maven.basic;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 @Slf4j
 public class BasicDouble {
     public static void main(String[] args) {
@@ -14,5 +18,5 @@ public class BasicDouble {
         Double a = null;
         b = a != null && a > 10.0;
         log.info("{}", b);
-    }
+     }
 }

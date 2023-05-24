@@ -142,7 +142,6 @@ public class JsonTest {
             JsonObject jsonObject = jsonElement.getAsJsonObject();
             if (jsonObject.has("messageCode")) {
                 String messageCode = jsonObject.get("messageCode").getAsString();
-
             }
 
         });
