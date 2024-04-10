@@ -71,4 +71,13 @@ public class ArrayListTest {
         Spliterator<Integer> spliterator = linkedList.spliterator();
     }
 
+    @Test
+    public void test4() {
+        List<Integer> list = Lists.newArrayList();
+        list.add(0);
+        list.add(1);
+        System.out.println(list);
+
+    }
+
 }
